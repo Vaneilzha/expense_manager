@@ -27,7 +27,6 @@ class Expense {
     return '$description - \$${amount.toStringAsFixed(2)} (${category}, ${date.toLocal()})';
   }
 }
-
 void main() {
   var expenses = [
     Expense(
